@@ -1,0 +1,9 @@
+type TransferEvent @entity {
+	id: ID!
+	from: String! @index
+	to: String! @index
+	value: BigInt!
+	block: BigInt! @index
+	timestamp: BigInt! @index
+	hash: String! @index
+}
