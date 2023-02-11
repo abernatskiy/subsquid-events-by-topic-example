@@ -7,8 +7,8 @@ Dependencies: NodeJS, Docker.
 To see it in action, begin by spinning up a *processor*, a process that ingests the data from the Ethereum Archive:
 
 ```bash
-$ git clone https://github.com/abernatskiy/liquidations-squid
-$ cd liquidations-squid/
+$ git clone https://github.com/abernatskiy/subsquid-events-by-topic-example
+$ cd subsquid-events-by-topic-example/
 $ npm i
 $ sqd build
 $ sqd up # starts a Postgres database in a Docker container
